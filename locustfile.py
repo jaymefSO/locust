@@ -17,7 +17,7 @@ from locust import HttpLocust, TaskSet, task
 class MyTaskSet(TaskSet):
     @task(1000)
     def index(self):
-        response = self.client.get("/")
+        response = self.client.get("/login")
 
     # This task will 15 times for every 1000 runs of the above task
     # @task(15)
