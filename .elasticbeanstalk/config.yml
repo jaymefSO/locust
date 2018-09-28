@@ -1,6 +1,6 @@
 branch-defaults:
   master:
-    environment: locust-testing
+    environment: locust-test
 environment-defaults:
   locust-testing:
     branch: null
